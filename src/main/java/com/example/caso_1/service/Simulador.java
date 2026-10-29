@@ -52,8 +52,6 @@ public class Simulador {
         System.out.println("Entradas disponibles final: " + disp );
         System.out.println("Reservas confirmadas: " + conf );
         System.out.println("Solicitudes rechazadas: " + rech );
-        System.out.println("Invariante: " + (disp + conf == 20));
-        System.out.println("Inventario no negativo: " + (disp >= 0));
     }
 
     public boolean isEnEjecucion() {
